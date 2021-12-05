@@ -1,0 +1,26 @@
+.navbar-outer-flex-container{
+    padding: 1em;
+    
+}
+
+.navbar-brand{
+    color: white;
+    font-family: var(--font-family);
+    
+}
+.navbar-links{
+  margin-top: 3em;
+}
+.navbar-links-item{
+    text-decoration: none;
+    color: white;
+    padding: 1em 2em;
+    font-family: var(--font-family);
+    transition: 0.3s;
+}
+.navbar-links-item:hover{
+    border-bottom: 3px solid #00e472;
+}
+.active{
+    border-bottom: 3px solid #00e472;
+}

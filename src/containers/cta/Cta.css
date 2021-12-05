@@ -1,0 +1,40 @@
+.cta-container{
+    margin-top: 9em;
+    height: 15em;
+    padding: 4em;
+   
+}
+.cta-header{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    font-family: var(--font-family);
+    font-weight: 700;
+}
+.cta-sub{
+    color: white;
+    font-size: 13px;
+    opacity: 0.7;
+    text-align: center;
+    font-family: var(--font-family);
+    font-weight: 700;
+}
+.item-title{
+    color: #00e472;
+    font-family: var(--font-family);
+    text-align: center;
+    font-weight: 700;
+    font-size: 29px;
+    padding: 1em 0em;
+}
+.cta-images{
+    margin-top: 4em;
+}
+.item-description{
+    font-family: var(--font-family);
+    font-size: 15px;
+    color: white;
+    opacity: 0.8;
+    width: 22em;
+    margin-bottom: 5em;
+}

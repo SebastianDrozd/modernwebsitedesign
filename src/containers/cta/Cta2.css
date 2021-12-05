@@ -1,0 +1,33 @@
+.cta2-outer-flex{
+    margin-top: 7em;
+   
+    background-image: url('../../assets/header.svg');
+    background-position: left;
+    border-radius: 900px 90px;
+}
+.cta2-header{
+    color: white;
+    text-align: center;
+    font-family: var(--font-family);
+    font-size: 40px;
+    font-weight: 750;
+    padding: 3em;
+}
+.cta2-item-title{
+    color: #00e472;
+    font-family: var(--font-family);
+    
+    font-weight: 700;
+    font-size: 20px;
+    padding: 1em 2em;
+}
+.cta2-item-description{
+    font-family: var(--font-family);
+    font-size: 15px;
+    color: white;
+    opacity: 0.8;
+    width:40em;
+    margin-bottom: 5em;
+    padding: 1em 3em;
+    line-height: 30px;
+}
