@@ -24,3 +24,19 @@
 .active{
     border-bottom: 3px solid #00e472;
 }
+@media screen and (max-width: 600px) {
+    .navbar-links-item{
+        text-decoration: none;
+        color: white;
+        padding: 1em;
+        font-family: var(--font-family);
+        transition: 0.3s;
+    }
+    .navbar-outer-flex-container{
+        padding: 0em;
+        
+    }
+    .navbar-links{
+       margin-right: 3em;
+      }
+  }

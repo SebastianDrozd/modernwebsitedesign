@@ -5,3 +5,10 @@
 body{
   background-color: #181818;
 }
+
+.inview{
+  opacity: 1 !important;
+  transition: 0.3s;
+}
+
+

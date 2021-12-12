@@ -6,7 +6,7 @@ import feature from '../../assets/feature.svg'
 import startup from '../../assets/startup.svg'
 const Cta = () => {
     return (
-        <>
+        <div id="yoyo">
             <div  id="section1" className="cta-container" style={{display: 'flex',justifyContent: 'center',flexDirection: 'column'}}>
                 <div style={{display: 'flex',flexDirection: 'column'}}>
                 <p className="cta-header">Blur the lines between Imagination and Reality</p>
@@ -34,7 +34,7 @@ const Cta = () => {
             </div>
             <br />
                 
-        </>
+        </div>
     )
 }
 

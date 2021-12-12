@@ -3,12 +3,12 @@ import './Cta2.css'
 import launch from '../../assets/launch.svg'
 const Cta2 = () => {
     return (
-        <>
+        <div>
            <div  id="section2" className="cta2-outer-flex">
                <div>
                    <h2 className="cta2-header">1000 years of Innovatoin culminates to this</h2>
                </div>
-               <div style={ {display: 'flex',justifyContent: 'center'}}>
+               <div className='cta2-box' style={ {display: 'flex',justifyContent: 'center'}}>
                    <div className="cta2-image" >
                        <img src={launch} width="400" height="400" alt="" />
                    </div>
@@ -18,7 +18,7 @@ const Cta2 = () => {
                    </div>
                </div>
                </div> 
-        </>
+        </div>
     )
 }
 

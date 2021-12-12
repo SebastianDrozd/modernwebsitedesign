@@ -1,9 +1,15 @@
 .cta2-outer-flex{
-    margin-top: 7em;
+    margin-top: 8em;
    
     background-image: url('../../assets/header.svg');
-    background-position: left;
-    border-radius: 900px 90px;
+    background-size: contain;
+    background-position: fixed;
+    height: 100vh;
+}
+#section2{
+    transition: all 2s;
+    opacity: 0;
+    transform: translate3d(0,40px,0)
 }
 .cta2-header{
     color: white;
@@ -31,3 +37,33 @@
     padding: 1em 3em;
     line-height: 30px;
 }
+
+@media screen and (max-width: 600px) {
+    .cta2-outer-flex{
+        margin-top: 1em;
+       
+        background-image: url('../../assets/header.svg');
+        background-size: contain;
+        background-position: fixed;
+        height: 100%;
+    }
+    .cta2-box{
+        flex-direction: column;
+        align-items: center;
+    }
+    .cta2-item-title{
+        color: #00e472;
+        font-family: var(--font-family);
+        
+        font-weight: 700;
+        font-size: 12px;
+        padding:1em;
+        text-align: center;
+    }
+    .cta2-item-description{
+        font-family: var(--font-family);
+        font-size: 12px;
+        text-align: center;
+        
+    }
+  }

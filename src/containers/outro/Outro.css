@@ -1,5 +1,5 @@
 .outro-outer-container{
-    padding: 1em 10em !important;
+    padding: 4em 10em !important;
 }
 .outro-image{
     padding: 1em;
@@ -38,3 +38,25 @@
 .outro-text{
     margin-top: 8em;
 }
+@media screen and (max-width: 600px) {
+    .outro-outer-container{
+        flex-direction: column;
+    }
+    .outro-image img{
+        width: 20em;
+    }
+    .outro-top-header{
+        color: white;
+        font-size: 35px;
+        text-align: center;
+        font-family: var(--font-family);
+        font-weight: 700;
+        margin-bottom: 1em;
+        text-align: center;
+    }
+    .outro-top-sub{
+        text-align: center;
+        font-size: 15px;
+        width: 100%;
+    }
+  }

@@ -14,7 +14,19 @@ const Outro = () => {
                 <br />
                 
                 <button className="outro-button">Get Started</button>
+                <br />
+
+                <br />
+                <br />
+               
             </div>
+            <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
         </div>
             
         </>
